@@ -29,6 +29,9 @@ li {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  cursor: pointer;
 }
