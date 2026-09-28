@@ -21,7 +21,7 @@ function setUserName() {
   if (!myName) {
     // MDN burada setUserName() ile tekrar soruyor; İptal'e basılınca pencere
     // sürekli açılır. Bu yüzden return ile fonksiyondan çıkıyoruz.
-    return;
+    return; // return: Fonksiyondan çıkmak için kullanılır. Bu durumda, kullanıcı adını girmediğinde veya iptal ettiğinde, fonksiyonun geri kalan kısmı çalıştırılmaz ve kullanıcı adı kaydedilmez.
   }
 
   localStorage.setItem("name", myName);
