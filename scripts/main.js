@@ -32,6 +32,7 @@ if (!localStorage.getItem("name")) {
   setUserName();
 } else {
   const storedName = localStorage.getItem("name");
+  // Gelmediyse adını sor. Geldiyse adını hatırla ve başlığa yaz.
   myHeading.textContent = `Hoş geldiniz, ${storedName}`;
 }
 
